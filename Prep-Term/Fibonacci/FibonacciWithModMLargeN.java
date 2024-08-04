@@ -7,7 +7,7 @@ class FibonacciWithModMLargeN {
         System.out.print("Enter MOD value: ");
         int MOD = sc.nextInt();
         System.out.print("Enter N to find Fibonacci(N) (Can be greater than 2^32): ");
-        int n = sc.next();
+        String n = sc.next();
         int fib[] = new int[6*MOD+3];
         fib[1] = 1;
         int p = findP(fib,MOD);
