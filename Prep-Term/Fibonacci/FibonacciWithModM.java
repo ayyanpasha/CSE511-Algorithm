@@ -19,6 +19,7 @@ class FibonacciWithModM {
             fib[i] = (fib[i-1]+fib[i-2])%MOD;
             if(fib[i-1] == fib[0] && fib[i] == fib[1]) break;
         }
+        System.out.println("p:"+(i-1));
         return i-1;
     }
 }
