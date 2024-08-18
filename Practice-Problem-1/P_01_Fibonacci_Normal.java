@@ -1,5 +1,5 @@
 import java.util.*;
-public class P_1_Fibonacci_Normal {
+public class P_01_Fibonacci_Normal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

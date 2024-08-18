@@ -1,5 +1,5 @@
 import java.util.*;
-public class P_3_Like_Fibonacci_Large_N_Matrix {
+public class P_03_Like_Fibonacci_Large_N_Matrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String n = sc.next();

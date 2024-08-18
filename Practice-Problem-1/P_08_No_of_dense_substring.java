@@ -1,5 +1,5 @@
 import java.util.*;
-public class P_8_No_of_dense_substring {
+public class P_08_No_of_dense_substring {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String string = sc.next();

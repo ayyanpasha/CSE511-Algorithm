@@ -1,5 +1,5 @@
 import java.util.*;
-public class P_9_Longest_dense_substring {
+public class P_09_Longest_dense_substring {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String string = sc.next();
