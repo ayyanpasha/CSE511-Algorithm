@@ -4,13 +4,10 @@ public class P_04_Like_Fibonacci_Subtract {
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
         int m = sc.nextInt();
-        for(int i=0;i<=20;i++){
-
         int result[][] = calculateA_power_N(i+"",m);
         int multiplyFactor[][] = {{2},{1},{0}};
         result = matrixMultiplication(result,multiplyFactor,m);
         System.out.println(result[result.length-1][0]);
-        }
     }
     
     public static int[][] calculateA_power_N(String n, int m){
