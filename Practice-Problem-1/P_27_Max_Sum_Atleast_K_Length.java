@@ -20,6 +20,9 @@ public class P_27_Max_Sum_Atleast_K_Length {
                 max = prefix[i]-prefix[minIndex];
                 maxLength = i-minIndex;
             }
+            if(prefix[i]-prefix[minIndex] == max && i-minIndex<maxLength){
+                maxLength = i-minIndex;
+            }
         }
         System.out.println(maxLength);
         System.out.println(max);
