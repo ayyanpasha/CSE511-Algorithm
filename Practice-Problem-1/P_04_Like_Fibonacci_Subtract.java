@@ -4,7 +4,7 @@ public class P_04_Like_Fibonacci_Subtract {
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
         int m = sc.nextInt();
-        int result[][] = calculateA_power_N(i+"",m);
+        int result[][] = calculateA_power_N(n,m);
         int multiplyFactor[][] = {{2},{1},{0}};
         result = matrixMultiplication(result,multiplyFactor,m);
         System.out.println(result[result.length-1][0]);
